@@ -69,7 +69,7 @@ Run tests with verbose output:
 
 npm test -- --verbose
 
-⚙️ Configuration
+Configuration
 
 You can adjust system behavior in src/config.js:
 
