@@ -7,21 +7,21 @@ Normally, the program returns the minimum amount of physical change.
 If the amount owed is divisible by 3, the program returns a randomized combination of denominations.
 
 Project Structure
-cash-register/
-│── src/
-│   │── calculator.js       # deterministic change logic
-│   │── formatter.js        # formats change into readable strings
-│   │── parser.js           # parses each line of input
-│   │── rules.js            # applies business rules (random vs normal flow)
-│   │── fileProcessor.js    # reads input.txt and writes output.txt
-│   │── index.js            # main entry point
-│   │── config.js           # configurable values (denominations, divisor, etc.)
-│
-│── input.txt               # input file with "owed,paid" values
-│── output.txt              # generated output file with change results
-│── test/                   # Jest test files
-│── package.json
-│── README.md
+```cash-register/
+├── src/
+│   ├── calculator.js       # deterministic change logic
+│   ├── formatter.js        # formats change into readable strings
+│   ├── parser.js           # parses each line of input
+│   ├── rules.js            # applies business rules (random vs normal flow)
+│   ├── fileProcessor.js    # reads input.txt and writes output.txt
+│   ├── index.js            # main entry point
+│   └── config.js           # configurable values (denominations, divisor, etc.)
+├── test/                   # Jest test files
+├── input.txt               # input file with "owed,paid" values
+├── output.txt              # generated output file with change results
+├── package.json
+└── README.md
+```
 
 Instrucctions
 Running the Normal Flow
